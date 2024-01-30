@@ -1,0 +1,103 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+body {
+  text-align: center;
+  font-family: "Open Sans";
+}
+/* BARRA DE NAVEGACIÓN */
+nav {
+    background-color: #060606;
+    text-align: left;
+    padding: 20px 120px;
+    font-size: 30px;
+}
+nav ul li {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 70px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+/* HEADER */
+header {
+  text-align: right;
+  background-image: url("../img/bg-hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px;
+  font-family: monospace;
+  text-shadow: 0px 3px 6px black;
+  color: white;
+}
+header h1 {
+  font-size: 70px;
+}
+header h2 {
+  font-size: 40px;
+  font-weight: 400;
+}
+/* UBICACION  */
+#Ubicacion {
+  margin: 100px;
+}
+#Ubicacion h2 {
+  font-size: 40px;
+  margin: 40px 0px 20px 0px;
+}
+#Ubicacion p {
+  font-size: 30px;
+}
+/* Proxima-charla */
+#Proxima-charla {
+  background-color: brown;
+  padding: 100px;
+  color: white;
+}
+#Proxima-charla img, .texto {
+  display: inline-block;
+  vertical-align: middle;
+}
+#Proxima-charla .texto {
+  text-align: left;
+  margin-left: 40px;
+}
+#Proxima-charla .texto h3 {
+  font-size: 60px;
+}
+#Proxima-charla .texto h4 {
+  font-size: 30px;
+}
+#Proxima-charla .texto h6 {
+  font-size: 25px;
+}
+#Proxima-charla .texto span {
+  font-size: 25px;
+}
+#Proxima-charla .texto p {
+  margin: 20px 0px;
+  font-size: 30px;
+}
+/* Eventos */
+#Eventos {
+  padding: 100px;
+}
+#Eventos h2 {
+  font-size: 50px;
+  margin-bottom: 40px;
+}
+#Eventos article {
+  display: inline-block;
+  margin: 0px 50px;
+  font-size: 30px;
+}
+#Eventos article img {
+  margin-bottom: 30px;
+}
+#contacto {
+  background-color: rgb(20, 27, 21);
+}

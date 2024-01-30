@@ -1,0 +1,25 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+body {
+    text-align: center;
+    font-family: "Open Sans";
+  }
+  /* BARRA DE NAVEGACIÓN */
+nav {
+    background-color: #080808;
+    text-align: left;
+    padding: 20px 120px;
+    font-size: 30px;
+}
+nav ul li {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 70px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
